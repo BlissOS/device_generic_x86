@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/android_x86.mk
+
+COMMON_LUNCH_CHOICES := \
+    android_x86-eng \
+    android_x86-user \
+    android_x86-userdebug
